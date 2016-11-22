@@ -1,11 +1,9 @@
 
 package com.example.daniel.timedchallenge_final.entities;
 
-import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-@Generated("org.jsonschema2pojo")
 public class Name {
 
     @SerializedName("title")

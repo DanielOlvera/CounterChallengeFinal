@@ -1,11 +1,9 @@
 
 package com.example.daniel.timedchallenge_final.entities;
 
-import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-@Generated("org.jsonschema2pojo")
 public class Result {
 
     @SerializedName("gender")
@@ -261,4 +259,21 @@ public class Result {
         this.nat = nat;
     }
 
+    @Override
+    public String toString() {
+        return "Result{" +
+                "gender='" + gender + '\'' +
+                ", name=" + name +
+                ", location=" + location +
+                ", email='" + email + '\'' +
+                ", login=" + login +
+                ", dob='" + dob + '\'' +
+                ", registered='" + registered + '\'' +
+                ", phone='" + phone + '\'' +
+                ", cell='" + cell + '\'' +
+                ", id=" + id +
+                ", picture=" + picture +
+                ", nat='" + nat + '\'' +
+                '}';
+    }
 }

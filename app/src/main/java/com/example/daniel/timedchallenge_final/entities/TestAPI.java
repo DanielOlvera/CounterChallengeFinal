@@ -3,11 +3,9 @@ package com.example.daniel.timedchallenge_final.entities;
 
 import java.util.ArrayList;
 import java.util.List;
-import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-@Generated("org.jsonschema2pojo")
 public class TestAPI {
 
     @SerializedName("results")
@@ -53,4 +51,11 @@ public class TestAPI {
         this.info = info;
     }
 
+    @Override
+    public String toString() {
+        return "TestAPI{" +
+                "results=" + results +
+                ", info=" + info +
+                '}';
+    }
 }
